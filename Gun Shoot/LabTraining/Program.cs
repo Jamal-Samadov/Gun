@@ -13,7 +13,7 @@ namespace LabTraining
             Console.WriteLine("********");
 
 
-            Gun gun = new Gun();
+            Gun gun = new Gun("r",30,30,"a");
 
             Console.WriteLine("1-Reload");
             Console.WriteLine("2-Shoot");
@@ -28,43 +28,42 @@ namespace LabTraining
             while (control)
             {
                 int select = Convert.ToInt32(Console.ReadLine());
+
                 switch (select)
                 {
 
 
-                    case 1:                        
+                    case 1:
                         Console.WriteLine("1-Reload \n");
+                        gun.Reload();
                         break;
 
                     case 2:
-                        Console.WriteLine("2-Shoot \n");
+
+                        gun.Shoaot();
 
                         break;
 
                     case 3:
-
                         Console.WriteLine("3-Full shoot \n");
+                        gun.Fullshoot();
 
                         break;
 
                     case 4:
-
+                        
                         Console.WriteLine("4-Gun Information \n");
+                        gun.GunInformation();
 
+                        break;
+
+                    case 5:
                         control = false;
                         break;
 
                 }
 
-                static void GetInfo()
-                {
-                    Console.WriteLine("1-Circle");
-                    Console.WriteLine("2-Triangle");
-                    Console.WriteLine("3-Rectangle");
-                    Console.WriteLine("4-Exit");
-                    Console.WriteLine();
-
-                }
+              
 
             }
         }

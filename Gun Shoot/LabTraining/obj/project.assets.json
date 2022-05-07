@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Last Task\\LabTraining\\LabTraining\\LabTraining.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\GunShoot\\Gun Shoot\\LabTraining\\LabTraining.csproj",
       "projectName": "LabTraining",
-      "projectPath": "C:\\Users\\User\\Desktop\\Last Task\\LabTraining\\LabTraining\\LabTraining.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\GunShoot\\Gun Shoot\\LabTraining\\LabTraining.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Last Task\\LabTraining\\LabTraining\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\GunShoot\\Gun Shoot\\LabTraining\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

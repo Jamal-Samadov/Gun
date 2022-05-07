@@ -4,87 +4,65 @@ using System.Text;
 
 namespace LabTraining
 {
-    internal class Gun
+    public class Gun
     {
-        private int _totalBullletSize;
-        public int TotalBulletSize
-        {
-            get 
-            {
-                return _totalBullletSize;
-            }
-            private set
-            {
-                if(value >= 0)
-                {
-                    _totalBullletSize = value;
-                }
-            }
-        }
+        public int shoot;
+        public int fullshoot;
+        public string reload { get; set; }
+        public string gunInformation { get; set; }
 
-        private int _shoot;
-        public int Shoot
-        {
-            get
-            {
-                return _shoot;
-            }
-            set
-            {
-                int select = 30;
-                int count = 0;
-                for(int i = 0; i < select; i--)
-                {
-                    if (i > 0)
-                    {
-                        count++;
 
-                    }
-                    else if(i == 0)
-                    {
-                        Console.WriteLine("Do reload");
-                    }
-                }
-            }
+        public Gun(string Reload, int Shoot, int FullShoot, string GunInformation)
+        {
+            shoot = Shoot;
+            fullshoot = FullShoot;
+            reload = Reload;
+            gunInformation = GunInformation;
         }
 
 
-        public int _fullShoot;
-
-        public int FullShoot
+        public void Reload()
         {
-            get
-            {
-                return  _fullShoot;
-            }
-            set
-            {
-                int i;
-
-                for (i = 30; i >= 0; i--)
-                {
-                    Console.WriteLine(i);
-                }
-
-
-            }
+            Console.WriteLine("Your bullet is full. Now you have 30 bullets ");
         }
-        private string _gunShoot;
-        public string Gunshoot
+
+        public void Shoaot()
         {
-            get
-            {
-                return _gunShoot;
-            }
-            set
-            {
-                string name = "My gun is M416. I have 30 bullet";
-            }
+
+            
+            shoot = 30;
+            
+
         }
-        
 
+        public void Fullshoot()
+        {
+            int i;
+            int j = 0;
+            for (i = 30; i >= 0; i--)
 
+            Console.WriteLine("Baaammm " +i);
+            Console.WriteLine("***********");
+            Console.WriteLine("Enemy down");
+            Console.WriteLine("***********");
+            Console.WriteLine("You are out of bullet. Please press the 1 number");
+            
+        }
 
+        public void GunInformation()
+        {
+            Console.WriteLine(" Hit Damage-40 \n Rate of fire-700–900 rounds/min \n Effective firing range-A5 11″: 300 metres \n 3.120–3.850 kg (6.88–8.49 lb) ");
+        }
+
+        public void GetInfo()
+        {
+            Console.WriteLine("1-Reload");
+            Console.WriteLine("2-Shoot");
+            Console.WriteLine("3-Full shoot");
+            Console.WriteLine("4-Gun Information");
+            Console.WriteLine();
+
+        }
 
     }
 }
