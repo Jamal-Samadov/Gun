@@ -1,0 +1,14 @@
+C:\Users\User\Desktop\Last Task\LabTraining\LabTraining\obj\Debug\netcoreapp3.1\LabTraining.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Last Task\LabTraining\LabTraining\obj\Debug\netcoreapp3.1\LabTraining.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Last Task\LabTraining\LabTraining\obj\Debug\netcoreapp3.1\LabTraining.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Last Task\LabTraining\LabTraining\obj\Debug\netcoreapp3.1\LabTraining.AssemblyInfo.cs
+C:\Users\User\Desktop\Last Task\LabTraining\LabTraining\obj\Debug\netcoreapp3.1\LabTraining.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Last Task\LabTraining\LabTraining\bin\Debug\netcoreapp3.1\LabTraining.exe
+C:\Users\User\Desktop\Last Task\LabTraining\LabTraining\bin\Debug\netcoreapp3.1\LabTraining.deps.json
+C:\Users\User\Desktop\Last Task\LabTraining\LabTraining\bin\Debug\netcoreapp3.1\LabTraining.runtimeconfig.json
+C:\Users\User\Desktop\Last Task\LabTraining\LabTraining\bin\Debug\netcoreapp3.1\LabTraining.runtimeconfig.dev.json
+C:\Users\User\Desktop\Last Task\LabTraining\LabTraining\bin\Debug\netcoreapp3.1\LabTraining.dll
+C:\Users\User\Desktop\Last Task\LabTraining\LabTraining\bin\Debug\netcoreapp3.1\LabTraining.pdb
+C:\Users\User\Desktop\Last Task\LabTraining\LabTraining\obj\Debug\netcoreapp3.1\LabTraining.dll
+C:\Users\User\Desktop\Last Task\LabTraining\LabTraining\obj\Debug\netcoreapp3.1\LabTraining.pdb
+C:\Users\User\Desktop\Last Task\LabTraining\LabTraining\obj\Debug\netcoreapp3.1\LabTraining.genruntimeconfig.cache
